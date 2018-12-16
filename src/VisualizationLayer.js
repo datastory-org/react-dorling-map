@@ -3,7 +3,7 @@ import { geoPath, geoMercator } from 'd3-geo';
 import { toCircle, fromCircle } from 'flubber';
 import { interpolateHsl, interpolateNumber } from 'd3-interpolate';
 import { scaleLinear } from 'd3-scale';
-import TweenMax from 'gsap/TweenMax';
+import TweenMax from 'gsap/umd/TweenMax';
 import {
   forceSimulation,
   forceLink,
